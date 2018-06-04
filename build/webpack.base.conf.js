@@ -34,12 +34,13 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.vue', '.json'],
         alias: {
-            'vue$': 'vue/dist/vue.esm.js',
+            // 'vue$': 'vue/dist/vue.esm.js',
             '@': resolve('src'),
         }
     },
     externals: {
-        'vue': 'Vue'
+        'vue': 'Vue',
+        'vue-router': 'VueRouter'
     },
     module: {
         rules: [
