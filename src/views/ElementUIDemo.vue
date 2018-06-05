@@ -1,6 +1,6 @@
-<template>
+<template lang="pug">
     <div class="hello">
-        ElementUIDemo.vue
+        el-button(type="primary") 主要按钮
     </div>
 </template>
 
