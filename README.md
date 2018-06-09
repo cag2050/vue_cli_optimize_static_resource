@@ -3,6 +3,7 @@
 > A Vue.js project
 
 ### 关键代码解析：
+build/webpack.base.conf.js 文件中配置：
 
 ```
     resolve: {
@@ -23,6 +24,8 @@
         'echarts': 'echarts'
     },
 ```
+
+### 优化前后对比：
 
 事项 | 优化前 | 优化后
 --- | --- | ---
