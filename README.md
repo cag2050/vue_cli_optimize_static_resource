@@ -3,6 +3,7 @@
 > A Vue.js project
 
 * 操作说明：http://www.cnblogs.com/cag2050/p/9134930.html
+* 放在项目根目录下static文件夹里的文件夹及文件，在打包后，会被复制到dist/static下。
 
 ### 关键代码解析：
 build/webpack.base.conf.js 文件中配置：
