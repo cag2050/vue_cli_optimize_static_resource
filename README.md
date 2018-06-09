@@ -20,6 +20,8 @@ build/webpack.base.conf.js 文件中配置：
     },
     externals: {
         // 下面一行等价于：'vue': 'window.Vue'，其他行同理
+        // 配置好externals后，运行`import Vue from 'vue'`语句，语句中from后面的vue就是下面这行的key：'vue'，key对应的value：Vue（等价于window.Vue）；
+        // externals对象里的key，用来`import xxx from <externals的key>`；externals对象里的value，指定从哪里寻找资源。
         'vue': 'Vue',
         'vue-router': 'VueRouter',
         'element-ui': 'ELEMENT',
