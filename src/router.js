@@ -20,6 +20,16 @@ export default new Router({
             path: '/hello',
             name: 'HelloWorld',
             component: () => import('./components/HelloWorld')
+        },
+        {
+            path: '/moment',
+            name: '',
+            component: () => import('./views/momentDemo')
+        },
+        {
+            path: '/echarts',
+            name: '',
+            component: () => import('./views/echartsDemo')
         }
     ]
 })

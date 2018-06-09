@@ -34,14 +34,17 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.vue', '.json'],
         alias: {
-            // 默认路径代理，例如 import Vue from 'vue$'，会自动到 'vue/dist/vue.esm.js'中寻找
-            'vue$': 'vue/dist/vue.esm.js',
+            // 默认路径代理，例如 import Vue from 'vue'，会自动到 'vue/dist/vue.esm.js'中寻找
+            // 'vue$': 'vue/dist/vue.esm.js',
             '@': resolve('src'),
         }
     },
     externals: {
         'vue': 'Vue',
-        'vue-router': 'VueRouter'
+        'vue-router': 'VueRouter',
+        'element-ui': 'element-ui',
+        'moment': 'moment',
+        'echarts': 'echarts'
     },
     module: {
         rules: [

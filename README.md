@@ -2,6 +2,12 @@
 
 > A Vue.js project
 
+事项 | 优化前 | 优化后
+--- | --- | ---
+初次dev速度 | |
+dev速度 |  | 200ms、275ms
+build速度 | | 8s
+
 ## Build Setup
 
 ``` bash
