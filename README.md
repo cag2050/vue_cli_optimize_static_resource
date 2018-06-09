@@ -2,6 +2,8 @@
 
 > A Vue.js project
 
+* 操作说明：http://www.cnblogs.com/cag2050/p/9134930.html
+
 ### 关键代码解析：
 build/webpack.base.conf.js 文件中配置：
 
@@ -30,8 +32,8 @@ build/webpack.base.conf.js 文件中配置：
 事项 | 优化前 | 优化后
 --- | --- | ---
 初次dev速度 | |
-dev速度 |  | 200ms、275ms
-build速度 | | 8s
+dev速度 | 300ms、400ms | 200ms、275ms、191ms、256ms、306ms、
+build速度 | 8s、| 8s、10s、8s
 
 
 ## Build Setup
