@@ -31,7 +31,7 @@ build/webpack.base.conf.js 文件中配置：
 
 事项 | 优化前 | 优化后
 --- | --- | ---
-初次dev速度 | |
+初次dev速度 | | 5.5s、
 dev速度 | 300ms、400ms | 200ms、275ms、191ms、256ms、306ms、
 build速度 | 8s、| 8s、10s、8s
 
