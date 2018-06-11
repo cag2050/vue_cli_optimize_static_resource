@@ -2,6 +2,7 @@
 
 > A Vue.js project
 
+* 在开发时，`router.js`只保留正在开发的路由，其他路由注释掉，可以显著减少编译时间。
 * 操作说明：http://www.cnblogs.com/cag2050/p/9134930.html
 * 放在项目根目录下static文件夹里的文件夹及文件，在打包后，会被复制到dist/static下。
 
